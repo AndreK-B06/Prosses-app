@@ -17,12 +17,21 @@ body {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-
+/* --------------------
+!!!!! Header !!!!!
+-------------------- */
 header {
   grid-area: 1 / 1 / 2 / 9;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* --------------------
+!!!!! General !!!!!
+-------------------- */
+/*elven det går ut i */
+#River {
+  grid-area: 8 / 2 / 9 / 5;
 }
 /* ---------------------------
 !!!!! Valvs and signalds !!!!!
@@ -98,13 +107,6 @@ header {
 /* tank er tanken fylt med vann */
 .tank {
   grid-area: 4 / 4 / 7 / 5;
-}
-/* --------------------
-!!!!! General !!!!!
--------------------- */
-/*elven det går ut i */
-#River {
-  grid-area: 8 / 2 / 9 / 5;
 }
 /* --------------------
 !!!!! Footer !!!!!
