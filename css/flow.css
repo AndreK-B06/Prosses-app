@@ -7,3 +7,93 @@
 :root {
   --blue: #fdf7d8;
 }
+/* --------------------
+!!!!! Grid !!!!!
+-------------------- */
+body {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+header {
+  grid-area: 1 / 1 / 2 / 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*inn valv */
+#valv-inn-text {
+  grid-area: 2 / 2 / 3 / 3;
+  border: solid;
+}
+/*stiplet linje melom div 5 og valv inn text */
+#signal-inn-valve {
+  grid-area: 3 / 2 / 4 / 3;
+}
+/* tank navn */
+#tank-name {
+  grid-area: 3 / 4 / 4 / 5;
+}
+/* div4 Inn fra renseanleg */
+.div4 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+/* div 5 er valv inn til tanken */
+.div5 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+/* div 6 er røre inn til tanken */
+.div6 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+/* tank er tanken fylt med vann */
+.tank {
+  grid-area: 4 / 4 / 7 / 5;
+}
+/* div9 rør ut av tanken */
+.div9 {
+  grid-area: 6 / 5 / 7 / 6;
+}
+/* div10 er valv ut av tanken */
+.div10 {
+  grid-area: 6 / 6 / 7 / 7;
+}
+/* div11 er rør fra valv ut av tanker til produksonen */
+.div11 {
+  grid-area: 6 / 7 / 7 / 8;
+}
+/* div12 ut til produksjon */
+.div12 {
+  grid-area: 6 / 8 / 7 / 9;
+}
+/* div13 drenering rør fra tank */
+.div13 {
+  grid-area: 6 / 3 / 7 / 4;
+}
+/* div 14 valv til dreneringsrør */
+.div14 {
+  grid-area: 7 / 3 / 8 / 4;
+}
+/* div 15 elven det går ut i */
+.div15 {
+  grid-area: 8 / 2 / 9 / 5;
+}
+/* fotter */
+footer {
+  grid-area: 9 / 1 / 10 / 9;
+}
+/* div 17 signal på tank for/og nivå måler */
+.div17 {
+  grid-area: 3 / 5 / 5 / 6;
+}
+/* div 18 signal til valv out */
+.div18 {
+  grid-area: 4 / 6 / 6 / 7;
+}
+/* div 19 valv out navn */
+.div19 {
+  grid-area: 4 / 7 / 5 / 8;
+}
