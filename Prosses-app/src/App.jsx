@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <section id="grid-container">
+        <nav></nav>
         <section className="Buffer-tank" id="buffer-top"></section>
         <section className="Buffer-tank" id="buffer-mid-top"></section>
         <section className="Buffer-tank" id="buffer-mid-bottom"></section>
