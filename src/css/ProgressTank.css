@@ -1,0 +1,6 @@
+#progress-bare {
+  background: none;
+}
+#bare {
+  background-color: var(--buffer-tank);
+}

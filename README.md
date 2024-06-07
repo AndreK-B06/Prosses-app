@@ -1,5 +1,8 @@
-- I'm making a Prose app that can control water into the tank and water out.but also drain the tank if necessary. 
+# React + Vite
 
-- The tank must have a function that shows how much water is in itand show the amount in percentage.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- valves must be able to be pressed to close or open. but alos an auto function, if there is too much water in the tank
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
