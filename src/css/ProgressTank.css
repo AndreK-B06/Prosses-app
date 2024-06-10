@@ -1,6 +1,6 @@
-#progress-bare {
-  background: none;
+#progress-tank {
+  background: var(--empty-tank);
 }
-#bare {
-  background-color: var(--buffer-tank);
+#progress-value {
+  background-color: var(--liquid-tank);
 }

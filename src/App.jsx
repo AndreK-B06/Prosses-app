@@ -1,6 +1,6 @@
 import "./css/App.css";
 import "./css/ProgressTank.css";
-import ProgressTank from "./components/ProgressTank";
+import ProgressTank from "./components/ProgressTank/ProgressTank";
 import Valve from "./components/Valve/Valve";
 
 function App() {

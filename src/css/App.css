@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 root {
-  -buffer-tank: #2364e7;
-}
-
-/* -----
-* mix * 
---------- */
-#grid-container {
-  display: grid;
-  width: 1024px;
-  grid-template-rows: repeat(1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr);
-  grid-template-columns: repeat(2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr);
+  --empty-tank: white;
+  --liquid-tank: #2364e7;
 }
